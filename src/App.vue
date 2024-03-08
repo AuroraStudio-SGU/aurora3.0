@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <router-view></router-view>
+  <div class="appcation">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped>

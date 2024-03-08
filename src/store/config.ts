@@ -1,11 +1,11 @@
 import {defineStore} from "pinia";
-import {computed, ref} from "vue";
+import {ref} from "vue";
 
 interface Config {
     baseUrl:string,
 }
 const defaultConfig: Config = {
-    baseUrl:"http://localhost:8080"
+    baseUrl:"http://192.168.49.66:8081"
 }
 //这里所有参数都会持久化保存!!!
 export const ConfigStore = defineStore('config', () => {

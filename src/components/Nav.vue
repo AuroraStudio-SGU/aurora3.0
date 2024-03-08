@@ -18,9 +18,9 @@ const jumpTo = (name:string)=>{
     <div class="navbar-center lg:flex z-20">
       <ul class="menu menu-horizontal px-1 gap-10">
         <li class="tooltip tooltip-bottom" data-tip="还没做呢"><a>关于我们</a></li>
-        <li class="tooltip tooltip-bottom" data-tip="还没做呢"><a>团队成员</a></li>
-        <li class="tooltip tooltip-bottom" data-tip="还没做呢"><a>动态</a></li>
-        <li class="tooltip tooltip-bottom" data-tip="还没做呢"><a>加入我们</a></li>
+        <li class="tooltip tooltip-bottom" @click="jumpTo('info')"><a>报名情况</a></li>
+        <li class="tooltip tooltip-bottom" @click="jumpTo('setting')"><a>设置</a></li>
+        <li class="tooltip tooltip-bottom" @click="jumpTo('join')"><a>加入我们</a></li>
       </ul>
     </div>
     <div class="navbar-end">
